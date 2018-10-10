@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Saldivar Adrian Quiz Maker</title>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Styles/styles.css">
+
+</head>
+
+
+<body>
+    <nav id="header" class="navbar fixed-top  navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Lab 3 Quiz Maker</a>
+        <div class="float-right">
+            <a href="quiz.html">
+                <button class="btn btn-outline-success">Preview Quiz</button>
+            </a>
+            <button id="js-save-quiz-button" class="btn btn-outline-warning">Save</button>
+            <button id="resetQuiz" class="btn btn-danger">Reset Quiz</button>
+        </div>
+    </nav>
+    <div id="content" class="js-container container">
+        <div class="js-question-container">
+
+
+        </div>
+        <div class="new-question">
+            <button id="js-add-question-button" class="btn btn-primary">Add question</button>
+
+        </div>
+
+    </div>
+
+
+
+    <hr>
+    <!-- end js-container -->
+    <script src="Dist/EventDispatcher.js"></script>
+    <script src="Models/QuizModel.js"></script>
+    <script src="Views/QuizView.js"></script>
+    <script src="Controllers/QuizController.js"></script>
+    <script src="App.js"></script>
+
+</body>
+
+</html>

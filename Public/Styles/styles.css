@@ -1,0 +1,25 @@
+label {
+    width: 100%
+}
+
+.card-header {
+    padding-top: 20px;
+}
+
+.new-question {
+    margin: 0 auto;
+    color: greenyellow;
+    text-align: center;
+}
+
+.custom-control {
+    padding: 10px;
+}
+
+#header {
+    height: 50px;
+}
+
+#content {
+    padding-top: 50px;
+}
